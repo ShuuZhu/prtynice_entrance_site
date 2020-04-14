@@ -1,0 +1,179 @@
+img {
+  height: 100%;
+}
+/* mobile */
+@media (max-width:817px){ 
+
+  html,body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .row {
+    height: 46px;
+    width: 722px;
+    margin: 25px auto;
+    cursor: pointer;
+  }
+
+  .logo {
+    display: none
+  }
+
+  .big-logo {
+    width: 350px;
+    height: 250px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background: url("../images/O.G. LOGO.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  html footer .footer-p {
+    position: absolute;
+    left: 0px;
+    margin: 20px;
+  }
+} 
+
+/* mac 13 inch */
+@media (min-width: 818px) and (max-width: 1366px) {
+  html,body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  #content {
+    display: flex;
+    flex-direction: column;
+    margin: 10%;
+    justify-content: center;
+  }
+
+  .row {
+    height: 46px;
+    width: 722px;
+    margin: 15px;
+    cursor: pointer;
+  }
+
+  html footer {
+    position: absolute;
+    bottom: 0px;
+    left: 280px;
+  }
+
+}
+
+/* 1920 1080*/
+
+@media (min-width: 1367px) {
+  html,body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  #content {
+    display: flex;
+    flex-direction: column;
+    margin: 10%;
+    justify-content: center;
+  }
+
+  .row {
+    height: 77px;
+    width: 1200px;
+    margin: 20px;
+    cursor: pointer;
+  }
+
+  html footer {
+    position: absolute;
+    bottom: 0px;
+    left: 367px;
+  }
+}
+
+
+
+
+
+.bg1 {
+  background: url("../images/OFFICIAL WEB BLACK.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.bg2 {
+  background: url("../images/YOUTUBE BLACK.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.bg3 {
+  background: url("../images/SHOPEE BLACK.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.bg4 {
+  width: 100%;
+  height: 100%;
+  background: url("../images/FACEBOOK BLACK.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.bg1:hover {
+  background: url("../images/OFFICIAL WEB GREEN.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* transition: all 0.25s linear;     */
+}
+
+.bg2:hover {
+  background: url("../images/YOUTUBE RED.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.bg3:hover {
+  background: url("../images/SHOPEE YELLOW.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.bg4:hover {
+  width: 100%;
+  height: 100%;
+  background: url("../images/FACEBOOK BLUE.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* transition: all 0.25s linear;     */
+}
+
+.last-row {
+  display: flex;
+  align-items: flex-end;
+}
+
+.logo {
+  width: 30%;
+  height: 200%;
+  background: url("../images/O.G. LOGO.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
