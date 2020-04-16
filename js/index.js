@@ -43,7 +43,6 @@
       goto('https://shop.prettyniceltd.com/')
       sendGA('logo')
     })
-
   }
 
   const initialGA = () => {
